@@ -228,7 +228,7 @@ st.markdown(
 |---|---|---|
 | **Wenige, glatte Eingaben** | Mit drei Eingaben reichen Dutzende Simulationen. Jede weitere Eingabe vervielfacht den Raum; ein GP braucht dann viele Punkte, und die Wahl des Entwurfs wird wichtiger. | kein Folgestück |
 | **Die Wahrheit ist eine Simulation** | Das Surrogat erbt jeden Fehler des Simulators (hier das Modell aus Stück 12) und sein Rauschen (60 000 Lkw je Punkt). Es ersetzt die Wirklichkeit nicht. | **[Jackson-Netze](https://sebastianhanisch-jackson-network-demo.streamlit.app/)** |
-| **Das Modell erklärt die Streuung** | Das neuronale Netz liefert keine Unsicherheit; das GP liefert eine, aber bei wenigen Punkten zu sichere. Intervalle mit garantierter Abdeckung braucht man anderswo. | **[forecast-interval-demo](https://sebastianhanisch-forecast-interval-demo.streamlit.app/)** (konforme Intervalle) |
+| **Das Modell erklärt die Streuung** | Das neuronale Netz liefert keine Unsicherheit; das GP liefert eine, aber bei wenigen Punkten zu sichere. Intervalle mit kalibrierter Abdeckung braucht man anderswo. | **[forecast-interval-demo](https://sebastianhanisch-forecast-interval-demo.streamlit.app/)** (konforme Intervalle) |
 | **Training und Einsatz im selben Bereich** | Jenseits der Trainingsdaten wird ein reines Surrogat unzuverlässig, besonders am Rand der Stabilität (u → 1). Das Hybrid mildert das, löst es nicht. | **[Prioritätsklassen](https://sebastianhanisch-priority-queue-demo.streamlit.app/)** und andere Stücke liefern die Physik |
 | **Das neuronale Netz ist gut eingestellt** | Hier ein fester Aufbau (32 × 32, tanh), kein Abstimmen der Einstellungen; ein anderes Netz ändert die Rangfolge. | **[mlp-backprop-demo](https://sebastianhanisch-mlp-backprop-demo.streamlit.app/)** |
 """

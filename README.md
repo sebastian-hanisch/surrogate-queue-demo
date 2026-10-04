@@ -64,7 +64,7 @@ Alle Zahlen stehen in `tests/test_claims.py`. Fehler = relativer Fehler der Gesa
 - **Ein festes NN** (32 × 32, tanh, L2-Strafe 10⁻³), ohne Abstimmen der Einstellungen und ohne Ensemble; ein anderes Netz ändert die Rangfolge. Das GP ist ebenfalls nur mit einem Kern (Matérn-5/2) gerechnet.
 - **Studie mit 5 Wiederholungen** (raumfüllend: eine Folge); die Mittel schwanken von Größe zu Größe um Zehntel Prozentpunkte (z. B. raumfüllendes GP 1.0 bei n = 32, 1.2 bei n = 48), die Rangfolgen sind erst über mehrere Größen belastbar.
 - **Die Zeiten der App** (Simulation und Vorhersage) werden auf dem jeweiligen Rechner gemessen und hängen von ihm ab; belastbar ist nur die Größenordnung (rund eine Sekunde je Simulation mit 60 000 Lkw, Millisekunden je GP-Vorhersage).
-- **Intervalle ohne Garantie.** Konforme Intervalle mit garantierter Abdeckung (siehe forecast-interval-demo) sind nicht gerechnet.
+- **Intervalle ohne Kalibrierung.** Konforme Intervalle, die die Abdeckung im stationären Fall treffen (siehe forecast-interval-demo), sind nicht gerechnet.
 
 ## Verwandte Demos im Portfolio
 
@@ -72,7 +72,7 @@ Alle Zahlen stehen in `tests/test_claims.py`. Fehler = relativer Fehler der Gesa
 - [`mg1-kingman-demo`](https://github.com/sebastian-hanisch/mg1-kingman-demo) (Stück 10): Kingman und Allen-Cunneen.
 - [`markov-queue-demo`](https://github.com/sebastian-hanisch/markov-queue-demo) (Zusatzstück): wo die exakte Rechnung noch möglich ist.
 - [`mlp-backprop-demo`](https://github.com/sebastian-hanisch/mlp-backprop-demo): das neuronale Netz mit Rückwärtsableitung und Gradienten-Check, hier als Surrogat eingesetzt.
-- [`forecast-interval-demo`](https://github.com/sebastian-hanisch/forecast-interval-demo): konforme Intervalle mit garantierter Abdeckung, die dem GP fehlt.
+- [`forecast-interval-demo`](https://github.com/sebastian-hanisch/forecast-interval-demo): konforme Intervalle, die im stationären Fall die Nennabdeckung treffen und dem GP fehlen.
 
 ## Bewusst nicht umgesetzt
 

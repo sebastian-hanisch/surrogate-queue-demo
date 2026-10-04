@@ -1,5 +1,9 @@
 # Surrogat-Modelle – ein Ersatz für die Simulation (Streamlit-Demo)
 
+**[→ Demo live ausprobieren](https://sebastianhanisch-surrogate-queue-demo.streamlit.app/)**
+
+---
+
 Interaktive Demo zu **Ersatzmodellen für teure Simulationen**. **Dreizehntes und letztes Stück der Konzepte-Linie „Warteschlangentheorie und Simulation“** im Portfolio von
 [Sebastian Hanisch](https://sebastianhanisch.net) (Operations Research und Machine Learning): ein Verfahren, ein wachsendes Beispiel, jedes Folgestück hebt genau eine Annahme auf.
 

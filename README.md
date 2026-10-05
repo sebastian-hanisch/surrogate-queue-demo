@@ -88,9 +88,9 @@ Dies ist das letzte Stück der Linie; nichts davon hat ein Folgestück:
 
 ## Tests
 
-131 Tests, rund 35 Sekunden: der Simulator (Simulation von Hand mit Warten am Kran und Rückläufern, Jackson und Zerlegung gegen Stück 12, Sampler, Reproduzierbarkeit, Simulation gegen Formel), das GP (Kern von Hand, Randwahrscheinlichkeit und Vorhersage
+146 Tests, rund 85 Sekunden: der Simulator (Simulation von Hand mit Warten am Kran und Rückläufern, Jackson und Zerlegung gegen Stück 12, Sampler, Reproduzierbarkeit, Simulation gegen Formel), das GP (Kern von Hand, Randwahrscheinlichkeit und Vorhersage
 gegen scikit-learn, Interpolation, Unsicherheit, ARD, Hybrid), das NN (Vorwärtsrechnung von Hand, Gradient gegen Differenzenquotienten, Glorot-Start, Anpassung), die Versuchsplanung (Sobol, zufällig, aktiv von Hand), Auswertung und Vollständigkeit der
-vorgerechneten Studie (inklusive Neurechnung einer Zelle), Presets und Permalink, Diagramme (gesperrte Achsen), AppTest-Rauchtests mit festem Würfel-Seed, der Smoke-Test der Portfolio-Vorlage, ein Quelltext-Test gegen Satz-Komma-Fehler und
+vorgerechneten Studie (inklusive Neurechnung einer Zelle), Presets und Permalink, Diagramme (gesperrte Achsen), AppTest-Rauchtests mit festem Würfel-Seed, der Smoke-Test der Portfolio-Vorlage, ein Quelltext-Test gegen Satz-Komma-Fehler, Orakeltests für den Simulator (Jackson aus der Geburts-Sterbe-Kette, Zerlegung direkt aufgelöst, unabhängiger Netz-Simulator) und
 `test_claims.py` für jede Zahl dieser README.
 
 ## Dateistruktur
